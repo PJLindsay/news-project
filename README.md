@@ -1,4 +1,4 @@
-# foodie-project
+# news-project
 
 Simple News site from Max's Next.js 15 course on Udemy (Section 4)
 
