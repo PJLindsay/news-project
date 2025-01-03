@@ -1,12 +1,9 @@
 import NewsList from "@/components/news-list";
+import { getAllNews } from "@/lib/news";
 
+// Note this is a Server component (RSC) -- we reach out to database (only on server)
 export default async function NewsPage() {
-  const response = await fetch("http://localhost:8080/news");
-
-  if (!response.ok) {
-    throw new Error("Failed to fetch news.");
-  }
-  const news = await response.json();
+  const news = getAllNews();
 
   return (
     <>
