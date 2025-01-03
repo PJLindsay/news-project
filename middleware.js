@@ -14,3 +14,7 @@
 // export const config = {
 //   matcher: "/news"
 // }
+
+export function middleware(request) {
+  
+}
