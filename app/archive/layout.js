@@ -1,4 +1,5 @@
 // NOTE: layout.js is needed for parallel route config
+// IMPORTANT: all parallel routes must support same paths/params (eg. year)
 export default function ArchiveLayout({ archive, latest }) {
   return (
     <div>
