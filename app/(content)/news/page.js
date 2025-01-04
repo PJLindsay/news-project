@@ -3,7 +3,7 @@ import { getAllNews } from "@/lib/news";
 
 // Note this is a Server component (RSC) -- we reach out to database (only on server)
 export default async function NewsPage() {
-  const news = getAllNews();
+  const news = await getAllNews();
 
   return (
     <>
