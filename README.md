@@ -6,6 +6,7 @@ https://www.udemy.com/course/nextjs-react-the-complete-guide
 
 
 (Section 4)
+Routing and Page Rendering
 
 (Section 5)
 Data Fetching
@@ -16,6 +17,9 @@ next.js supports RSC - so you can fetch data directly inside them
 Add Simple Back end API (SQL Lite 3)
 Client-side data fetching
 Server-side data fetching
+
+Points of interest 
+git commit GUID HERE? ==> Convert from client-side fetching to server-side fetching
 
 Development
 ```
