@@ -18,9 +18,6 @@ Add Simple Back end API (SQL Lite 3)
 Client-side data fetching
 Server-side data fetching
 
-Points of interest 
-git commit GUID HERE? ==> Convert from client-side fetching to server-side fetching
-
 Development
 ```
 npm install
